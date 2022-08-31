@@ -2,8 +2,12 @@ from tkinter import *
 
 root = Tk()
 
-myLabel = Label(root, text="Hello World!")
+root.title("HELLO WORLD GUI")
+
+myLabel = Label(root, text="Hello World!", font=("Arial BOld", 50))
 
 myLabel.pack()
+
+
 
 root.mainloop()
